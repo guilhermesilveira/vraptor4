@@ -15,7 +15,7 @@
 				<include>*</include>
 			</includes>
 			<excludes>
-				<exclude>br.com.caelum:vraptor-blank-project</exclude>
+				<exclude>br.com.caelum:vraptor-goodtogo-project</exclude>
 			</excludes>
 		</dependencySet>
 	</dependencySets>
