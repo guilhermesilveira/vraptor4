@@ -2,6 +2,7 @@ package br.com.caelum.vraptor.controller;
 
 import javax.inject.Inject;
 
+import templates.index;
 import br.com.caelum.vraptor.Controller;
 import br.com.caelum.vraptor.Path;
 import br.com.caelum.vraptor.Result;
@@ -25,6 +26,6 @@ public class IndexController {
 
 	@Path("/")
 	public void index() {
-		result.include("variable", "VRaptor!");
+		result.use(index.class).render("VRaptor Good To Go!");
 	}
 }
