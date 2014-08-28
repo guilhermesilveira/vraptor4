@@ -27,6 +27,12 @@
 		</dependency>
 
 		<dependency>
+			<groupId>br.com.caelum.vraptor</groupId>
+			<artifactId>vraptor-biscotti</artifactId>
+			<version>0.9.0-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
 			<groupId>org.jboss.weld.servlet</groupId>
 			<artifactId>weld-servlet-core</artifactId>
 			<version>${weld.version}</version>
@@ -113,8 +119,8 @@
 				<artifactId>maven-eclipse-plugin</artifactId>
 				<version>2.9</version>
 				<configuration>
-					<downloadSources>false</downloadSources>
-					<downloadJavadocs>false</downloadJavadocs>
+					<downloadSources>true</downloadSources>
+					<downloadJavadocs>true</downloadJavadocs>
 					<wtpversion>2.0</wtpversion>
 					<ajdtVersion>none</ajdtVersion>
 				</configuration>
